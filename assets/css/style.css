@@ -1,0 +1,127 @@
+body {
+    background-color: #c8e1ed;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #757575;
+}
+
+/* sections */
+h1 {
+    font-weight: bold;
+    color: #5f89ab;
+    margin-bottom: 2px;
+    margin-top: 3px;
+    padding: 0px 0px 0px 0px;
+}
+
+/* sub headings */
+h2 {
+    font-style: italic;
+    color: #607d8b;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+/* titles */
+h4 {
+    color: #757575;
+    padding-top: 4px;
+    padding-bottom: 0px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+}
+
+/* main content */
+.content {
+    border-left-color: #757575;
+    border-right-color: #757575;
+    background-color: white;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* nav bar */
+nav {
+    border-color: #757575;
+    color: white;
+    background-color: #5f89ab;
+}
+
+
+
+/* professional picture */
+figure { float: left; clear: both; margin-left: 0px;}
+
+figcaption { text-align: center }
+
+/* nav bar horizontal */
+.menu {
+    float: left;
+    color: white;
+}
+
+/* no bullet */
+.normal {
+    list-style-type: none;
+    margin-top: 0;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-left: 75px;
+    overflow: hidden;
+    color: white;
+}
+
+li a {
+    list-style-type: none;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: darkblue;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: olive;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #ad8c91;
+}
+
+/* jump to top */
+#footer {
+    position: fixed;
+    bottom: 30px;
+    width: 100%;
+    left: 30px;
+    font-size: 1.5em;
+}
+
+/* creates 2 columns for main content*/
+.column {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    margin: 10px;
+    border-right-color: lightgray;
+    border-left-color: lightgray;
+}
+
+/* clear floats after the columns8*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
